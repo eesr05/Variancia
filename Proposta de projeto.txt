@@ -1,0 +1,35 @@
+﻿Site Cálculo Variância
+21/10/2019
+─
+Evelinne Rodrigues
+Vee Dev 
+Rua, 123
+Cidade, Estado, 00000-000
+Visão geral
+Um site que calcula variância..
+Objetivos
+1. Fazer o site
+2. Descrever como o cálculo é feito
+Especificações
+Como é feito o cálculo de variância:
+-Calcular a média
+-Subtrair valor da amostra com a media
+-Somar os valores
+-Dividir a somatória pela média menos 1
+Exemplo
+Elementos da amostra: 10, 20, 12, 17, 16
+Média: = 15
+Variância:
+10- 15=  -5²= 25
+20 - 15 =  5² = 25
+12 - 15 =  -3²=  9
+17  - 15=  2²=   4
+16 - 15 =  1²=  2
+Somatório = 64
+= = 16
+Desvio Padrão:
+Raiz quadrada da variância: = 4
+
+
+Site
+O site foi feito com HTML, SASS, JavaScript, e Bootstrap. E será hospedado pelo Git Pages.
