@@ -33,13 +33,13 @@
   clear: both;
   border-radius: 30px;
   position: relative;
-  left: 40%;
+  left: 39%;
   color: #444242;
   font-style: italic;
   background-color: aliceblue;
 }
 
-.botoes .merda {
+.botoes .cal {
   position: relative;
   bottom: -6%;
 }
@@ -50,7 +50,7 @@
   clear: both;
   border-radius: 30px;
   position: relative;
-  left: 27%;
+  left: 29%;
   color: #444242;
   font-style: italic;
   background-color: aliceblue;

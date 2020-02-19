@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="copyright" content="Vee R">
+    <meta name="description" content="Site para calculo de Variância">
+    <meta name="og:title" property="og:title" content="Calculo de Variância">
+    <meta name="keywords" content="Calculo, Variância, matematica, média, ensino medio, aprender, calcular, estatistica">    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="symbols.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Calculo Variância</title>
+   <title>Calculo Variância</title>
 </head>
 <body>
     <header>
         <nav role="navigation">
             <div id="menuToggle">
-              <!--
-              A fake / hidden checkbox is used as click reciever,
-              so you can use the :checked selector on it.
-              -->
+             
               <input type="checkbox" />
               
-              <!--
-              Some spans to act as a hamburger.
-              
-              They are acting like a real hamburger,
-              not that McDonalds stuff.
-              -->
               <span></span>
               <span></span>
               <span></span>
               
-              <!--
-              Too bad the menu has to be inside of the button
-              but hey, it's pure CSS magic.
-              -->
+              
               <ul id="menu">
                 <label>
                     <h4>Variância</h4>
                     <input type="checkbox" />
                     <div id="col3Content" class="collapse"> "A média do quadrado da distância de cada ponto até a média". </div>
                 </label>
-                <a href="media.html" target='_blank'><li>Média</li></a>
-                <!-- <a href="#"><li>Info</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-              </ul> -->
+                <!-- <a href="media.html" target='_blank'><li>Média</li></a> -->
+                <label>
+                    <h4>Como calcular</h4>
+                    <input type="checkbox" />
+                    <div id="col3Content" class="collapse">- Calcular a média <br>
+                        - Subtrair valor da amostra com a media <br>
+                        - Somar os valores <br>
+                        - Dividir a somatória pela média menos 1 </div>
+                </label>
             </div>
           </nav>
     </header>
@@ -50,7 +49,7 @@
     </div>
     
         <div class="botoes">
-        <form name="calc" id="calc" class="merda" method="post" action="">
+        <form name="calc" id="calc" class="cal" method="post" action="">
         
             <input id="botao" class="botao" type="text" value="Elementos" placeholder="Elementos da Amostra" onfocus="this.value='';"
             >
@@ -60,7 +59,7 @@
             <input name="res" class="botao2" type="button" value="Variância" placeholder="Variancia" onclick="resultado()" >
             
         </form>
-        <input type="text"  id="botao3"class="botao3" value="Resultado" >
+        <input type="number"  id="botao3"class="botao3" value="Resultado" placeholder="Resultado" disabled>
     </div>
 
 <script src="script.js"></script>
