@@ -13,6 +13,7 @@ $CorVariancia:#7D40D6;
     position: absolute; 
     top: 40%; 
     border-radius: 30px;
+    border: green solid;
     
     .botao, .botao1{
         width: 300px;
@@ -26,7 +27,7 @@ $CorVariancia:#7D40D6;
         clear: both;
         margin: 20px 10px 45px 10px;
         position: relative;
-        left: 10%;  
+        left: 9%;  
     }
     .botao2{
         margin: 20px 10px  80px 10px;
@@ -42,7 +43,7 @@ $CorVariancia:#7D40D6;
         
     }
     .cal{
-       // border: rgb(245, 13, 52) solid;
+        //border: rgb(245, 13, 52) solid;
         position: relative;
         bottom: -6%;
     }
@@ -228,4 +229,32 @@ li{
     color: $CorVariancia;
     font-size: 17px;
     font-weight: bold;
+}
+
+.botoes{
+  
+  @media  screen and(min-width: 300px){
+    width: 340px;
+    border: pink solid;
+    left: 50%;
+}
+}
+ .cal{
+  @media screen and(min-width: 300px){
+      left: -5%;
+     
+  }
+
+}
+
+.reset{
+  @media screen and(max-width: 1500px){
+    display: none;
+  }
+}
+#botao3{
+  @media screen and(min-width:300px) {
+    left: 25%;
+    color: crimson;
+  }
 }
