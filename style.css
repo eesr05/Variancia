@@ -250,4 +250,32 @@ li {
     color: crimson;
   }
 }
+
+.contento {
+  position: relative;
+  top: 50em;
+}
+
+.contento .tituloConteudo {
+  font-size: 40px;
+  text-align: center;
+  color: #eb5dbc;
+  margin-bottom: 10%;
+  margin-right: 50%;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+}
+
+.contento .conteudo, .contento .conteudo2, .contento .conteudo3 {
+  padding: 1rem;
+  font-size: 23px;
+  color: #505050;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.contento .img {
+  margin-right: 20%;
+  margin-left: 25%;
+}
 /*# sourceMappingURL=style.css.map */
