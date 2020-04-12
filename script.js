@@ -14,7 +14,7 @@ function resultado (){
     var amostra = document.calc.botao.value;
     var quadrado = document.calc.botao2.value;
     var n = amostra - 1;
-    total = (quadrado / n);
+    total = Math.round((quadrado / n));
     //alert("A variancia é de: " + total.toFixed(2));
     document.getElementById('botao3').setAttribute("value", total);  //Colocando o resultado no botao
     return total;
